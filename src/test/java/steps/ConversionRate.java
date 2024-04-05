@@ -21,7 +21,7 @@ public class ConversionRate {
 	   Response response=RestAssured.get();
 	   response.prettyPrint();
 	   response.then().assertThat().statusCode(200);
-	   System.out.println("Status code is 200");
+	   System.out.println("Status code is success 200");
    }
    
    @When("print the conversion rate")
